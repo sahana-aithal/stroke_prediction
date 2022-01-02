@@ -54,6 +54,7 @@ We used the library c5.0 to do this.
 Methodology 3: Neural Network 
 The third approach we tried was a neural network. We thought the approach was suitable for predicting stroke because of the architecture’s ability to generalize and understand complex relationships in the dataset, that a tree structure or rule-based algorithm might not detect.  We leveraged the ‘nnet’ package in R to fit a single layer neural network. The ‘nnet’ package also handles categorical inputs well as opposed to the R package ‘neuralnet’. 
 
-
 Results:
 All three models do a good job of predicting stroke with accuracy results ranging from 76% to 91%! When deciding on which model we would choose in a real-world application, we put ourselves in the shoes of a patient visiting a doctor for a wellness checkup. While the neural network model has the highest accuracy on test data, it lacks explain-ability which is critical in a medical application. If we take a different perspective, such as reporting for a news broadcast warning of risk of stroke, we might choose to report the neural network model and listing all the potential factors that weigh in on stroke risk.
+
+Software used: R
